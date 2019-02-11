@@ -11,7 +11,7 @@ spec:
   releaseName: ghost
   chart:
     git: ssh://git@github.com/traveloka/flux-get-started
-    ref: master
+    ref: develop
     path: charts/ghost
   values:
     image: bitnami/ghost:1.21.5-r0
